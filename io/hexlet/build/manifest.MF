@@ -1,20 +1,2 @@
-# Запускаем внутри директории build,
-# поэтому в конце команды точка (текущая директория)
-# Опции:
-# c – создать новый файл
-# v - подробный вывод
-# f – имя выходного jar файла
-# m – имя файла манифеста (или путь до него)
-jar -cvfm build.jar manifest.MF .
-
-added manifest
-adding: manifest.MF(in = 39) (out= 41)(deflated -5%)
-adding: io/(in = 0) (out= 0)(stored 0%)
-adding: io/hexlet/(in = 0) (out= 0)(stored 0%)
-adding: io/hexlet/(in = 0) (out= 0)(stored 0%)
-adding: io/hexlet/Two.class(in = 415) (out= 292)(deflated 29%)
-adding: io/hexlet/One.class(in = 332) (out= 242)(deflated 27%)
-
-
- 
+Main-Class: io.hexlet.One
 
